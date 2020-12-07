@@ -4,10 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Call My Medic</title>
 </head>
 <body>
-	<h1>Welcome is Index Page</h1>
-	<a href="patientLogin.htm">Click here for Patient Login</a>
+	<h1>Welcome To Index Page</h1>
+	<h1>Call My Medic</h1>
+	<div><a href="patientRegister">Click here for Patient Registration</a></div>
+	<div><a href="patientLogin">Click here for Patient Login</a></div>
+	
 </body>	
 </html>

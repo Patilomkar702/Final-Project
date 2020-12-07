@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CallMyMedic</name>
 	<description>Connect Pateint and Doctor across the glob</description>
+	
 
 	<properties>
 		<java.version>11</java.version>
@@ -51,6 +52,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+    				<addResources>true</addResources>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

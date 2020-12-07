@@ -10,4 +10,5 @@ public interface PatientService {
 	public boolean insertPatient(Patient patient);
 	public boolean updatePatient(Patient patient);
 	public List<Patient> readAllPateint();
+	public boolean isPatientValid(String mail,String pass);
 }
